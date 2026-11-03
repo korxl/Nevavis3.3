@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nevavis.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CapeMixin",
+    "ClientWorldMixin",
+    "InGameHudMixin",
+    "PlayerEntityMixin",
+    "PlayerListHudMixin",
+    "SwingMixin",
+    "SwingSpeedMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "nevavis",
+	"version": "${version}",
+	"name": "NevaVis",
+	"description": "NEVAVIS — визуальный клиент: стеклянный GUI, HUD, музыкальный плеер, частицы и темы.",
+	"authors": [
+		"NevaVis Team"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"nevavis.core.NevaVisClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"mixins": [
+		"nevavis.mixins.json"
+	],
+	"icon": "assets/nevavis/icon.png"
+}
